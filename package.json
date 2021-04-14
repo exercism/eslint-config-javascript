@@ -1,6 +1,6 @@
 {
   "name": "@exercism/eslint-config-javascript",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "ESLint configuration for the JavaScript track on Exercism",
   "main": "index.js",
   "scripts": {
