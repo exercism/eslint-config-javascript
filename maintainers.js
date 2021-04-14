@@ -6,6 +6,7 @@ module.exports = {
   },
   extends: [
     'eslint:recommended',
+    'prettier',
     'plugin:import/errors',
     'plugin:import/warnings',
   ],
@@ -39,10 +40,10 @@ module.exports = {
     'import/no-unresolved': 'error',
     'import/prefer-default-export': 'off',
 
-    // eslint style rules
-    indent: ['error', 2],
-    'linebreak-style': ['error', 'unix'],
-    quotes: ['error', 'single'],
-    semi: ['error', 'always'],
+    // eslint style rules, all covered by prettier
+    // indent: ['error', 2],
+    // 'linebreak-style': ['error', 'unix'],
+    // quotes: ['error', 'single'],
+    // semi: ['error', 'always'],
   },
 };

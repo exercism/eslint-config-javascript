@@ -19,7 +19,7 @@ module.exports = {
   },
   rules: {
     // eslint rules
-    'array-callback-return': ['warn', { checkForEach: true }],
+    'array-callback-return': ['warn', { checkForEach: false }],
     'default-param-last': 'error',
     eqeqeq: ['warn', 'smart'],
     'guard-for-in': 'warn',
