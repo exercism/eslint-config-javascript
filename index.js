@@ -22,7 +22,6 @@ module.exports = {
     'array-callback-return': ['warn', { checkForEach: false }],
     'default-param-last': 'error',
     eqeqeq: ['warn', 'smart'],
-    'guard-for-in': 'warn',
     'linebreak-style': 'off',
     'no-eval': ['error', { allowIndirect: true }],
     'no-extend-native': 'warn',
