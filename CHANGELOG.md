@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.3.1
+
+### students
+
+- Remove `guard-for-in`
+
 ## 0.3.0
 
 ### maintainers
