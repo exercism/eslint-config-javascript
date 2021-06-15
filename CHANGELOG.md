@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.0
+
+- Update dependencies
+
 ## 0.3.1
 
 ### students
