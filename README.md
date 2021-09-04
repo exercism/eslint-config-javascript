@@ -53,6 +53,6 @@ Because the tooling (such as the [JavaScript Analyzer][git-javascript-analyzer],
 [web-eslint]: https://eslint.org
 [web-eslint-configuration]: https://eslint.org/docs/user-guide/configuring/
 [web-eslint-recommended]: https://eslint.org/docs/rules/
-[web-exercism]: https://exercism.io
+[web-exercism]: https://exercism.org
 [web-prettier]: https://prettier.io
 [web-shareable-configs]: https://eslint.org/docs/developer-guide/shareable-configs
