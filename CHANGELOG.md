@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.5.0
+
+- Update dependencies
+- Add `prettier`
+
 ## 0.4.0
 
 - Update dependencies
