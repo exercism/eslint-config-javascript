@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.7.0
+
+- Use pnpm 9.6.0
+- Update to eslint 9+
+- Migrate to flat config
+
 ## 0.6.0
 
 - Upgrade to eslint 8+
