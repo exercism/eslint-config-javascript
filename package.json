@@ -9,13 +9,11 @@
   "author": "Derk-Jan Karrenbeld <derk-jan+git@karrenbeld.info> (https://derk-jan.com)",
   "license": "MIT",
   "peerDependencies": {
-    "@babel/core": ">= 7.25",
-    "@exercism/babel-preset-javascript": ">= 0.4.0",
+    "@exercism/babel-preset-javascript": ">= 0.5.0",
     "eslint": ">= 9.8"
   },
   "devDependencies": {
-    "@babel/core": "^7.25.2",
-    "@exercism/babel-preset-javascript": "^0.4.0",
+    "@exercism/babel-preset-javascript": "^0.5.0",
     "eslint": "^9.8.0",
     "prettier": "^3.3.3"
   },
@@ -24,8 +22,8 @@
     "@babel/eslint-plugin": "^7.25.1",
     "@eslint/js": "^9.8.0",
     "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-jest": "^28.7.0",
+    "eslint-plugin-jest": "^28.8.0",
     "globals": "^15.9.0"
   },
-  "packageManager": "pnpm@9.6.0"
+  "packageManager": "pnpm@9.7.0"
 }
