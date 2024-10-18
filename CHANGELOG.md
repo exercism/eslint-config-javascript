@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.7.1
+
+- Update dependencies
+- Use pnpm 9.12.2
+
 ## 0.7.0
 
 - Use pnpm 9.6.0
