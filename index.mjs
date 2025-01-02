@@ -12,7 +12,7 @@ const pkg = JSON.parse(
 );
 
 /** @type {import('eslint').ESLint.Plugin} */
-const plugin = {
+export const plugin = {
   meta: {
     name: pkg.name + '/maintainers',
     version: pkg.version,
@@ -23,10 +23,6 @@ const plugin = {
 export default [
   {
     ...eslint.configs.recommended,
-    plugins: {
-      jest: jestPlugin,
-      [plugin.meta.name]: plugin,
-    },
     languageOptions: {
       parser: babelParser,
       parserOptions: {

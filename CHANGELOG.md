@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.8.0
+
+- Update dependencies
+- Use pnpm 9.15.2
+- Remove `plugin` from plugins, and export separately
+
 ## 0.7.1
 
 - Update dependencies
