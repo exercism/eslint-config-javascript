@@ -19,7 +19,8 @@ export const plugin = {
   },
 };
 
-/** @type {import('eslint').Linter.Config} */
+/** @typedef {import('eslint').Linter.Config} Config */
+/** @type {[Config, Config, Config]} */
 export default [
   {
     ...eslint.configs.recommended,

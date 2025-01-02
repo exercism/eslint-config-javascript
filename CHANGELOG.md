@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.8.1
+
+- Fix unsaved maintainers.mjs change
+- Fix exported types
+
 ## 0.8.0
 
 - Update dependencies

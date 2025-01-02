@@ -12,21 +12,18 @@ const pkg = JSON.parse(
 );
 
 /** @type {import('eslint').ESLint.Plugin} */
-const plugin = {
+export const plugin = {
   meta: {
     name: pkg.name + '/maintainers',
     version: pkg.version,
   },
 };
 
-/** @type {import('eslint').Linter.Config} */
+/** @typedef {import('eslint').Linter.Config} Config */
+/** @type {[Config, Config, Config]} */
 export default [
   {
     ...eslint.configs.recommended,
-    plugins: {
-      jest: jestPlugin,
-      [plugin.meta.name]: plugin,
-    },
     languageOptions: {
       parser: babelParser,
       parserOptions: {
