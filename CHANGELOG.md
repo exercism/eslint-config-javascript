@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.9.0
+
+- Update dependencies
+- Add smoke tests
+
 ## 0.8.1
 
 - Fix unsaved maintainers.mjs change
