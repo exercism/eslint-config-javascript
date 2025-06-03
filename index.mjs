@@ -4,6 +4,7 @@ import fs from 'fs';
 import eslint from '@eslint/js';
 import jestPlugin from 'eslint-plugin-jest';
 import prettierConfig from 'eslint-config-prettier';
+import importPlugin from 'eslint-plugin-import';
 
 import globals from 'globals';
 
@@ -49,13 +50,15 @@ export default [
       'no-shadow': 'warn',
       'no-unreachable-loop': 'warn',
       'no-unsafe-optional-chaining': 'error',
+      'no-unused-vars': ['warn', { varsIgnorePattern: '^_[^_]' }],
       'require-atomic-updates': 'warn',
     },
   },
+  importPlugin.flatConfigs.recommended,
 
   {
     // enable jest rules on test files
-    files: ['test/**', '**/*.spec.js*', '**/*.test.js*'],
+    files: ['test/**', '**/*.spec.{js,mjs,cjs}*', '**/*.test.{js,mjs,cjs}*'],
     ...jestPlugin.configs['flat/recommended'],
     rules: {
       ...jestPlugin.configs['flat/recommended'].rules,
@@ -71,9 +74,6 @@ export default [
       },
     },
   },
-
-  // https://github.com/import-js/eslint-plugin-import/pull/3018
-  // missing: import/* plugins
 
   prettierConfig,
 ];
